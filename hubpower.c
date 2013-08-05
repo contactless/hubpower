@@ -228,6 +228,7 @@ int main(int argc, char **argv)
     if (action == DO_POWER) {
         int i;
 
+        /*
         usb_ioctl.ifno = 0;
         usb_ioctl.ioctl_code = USBDEVFS_DISCONNECT;
         usb_ioctl.data = NULL;
@@ -236,6 +237,7 @@ int main(int argc, char **argv)
             perror("Error in ioctl (USBDEVFS_DISCONNECT)");
             return 1;
         }
+        */
 
         for (i = 3; i < argc; i += 2) {
             portnum = atoi(argv[i]);
