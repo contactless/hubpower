@@ -14,19 +14,6 @@ AC_PROG_CC
 
 
 
-dnl ***************************************************************************
-dnl Internationalization
-dnl ***************************************************************************
-IT_PROG_INTLTOOL([0.35.0])
-
-GETTEXT_PACKAGE=hubpower
-AC_SUBST(GETTEXT_PACKAGE)
-AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [GETTEXT package name])
-
-AM_GLIB_GNU_GETTEXT
-
-
-
 
 
 
@@ -37,5 +24,5 @@ AM_GLIB_GNU_GETTEXT
 AC_OUTPUT([
 Makefile
 src/Makefile
-po/Makefile.in
+
 ])
