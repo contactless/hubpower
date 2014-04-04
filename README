@@ -5,5 +5,12 @@ hubpower busnum:devnum status
 hubpower busnum:devnum bind
 
 
+Create debian package:
+    debuild -us -uc
+
+Create debian package for armel arch:
+    debuild -us -uc  -aarmel 
+
+
 
 forked from https://github.com/heiher/hubpower
