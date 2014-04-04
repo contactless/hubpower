@@ -15,7 +15,7 @@ install: hubpower
 	install -m 0755 hubpower $(DESTDIR)/$(prefix)/bin/hubpower
 
 clean:
-	rm hubpower
+	-@rm hubpower
 .PHONY: install clean
 
 
