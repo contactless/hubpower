@@ -1,0 +1,9 @@
+hubpower -- control the power settings for a USB hub
+
+Usage:hubpower busnum:devnum power {portnum (on|off)} ...
+hubpower busnum:devnum status
+hubpower busnum:devnum bind
+
+
+
+forked from https://github.com/heiher/hubpower
