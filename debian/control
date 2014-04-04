@@ -1,0 +1,12 @@
+Source: hubpower
+Maintainer: Evgeny Boger <boger@contactless.ru>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+
+Package: hubpower
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: control the power settings for a USB hub
+ bnlah
