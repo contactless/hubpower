@@ -1,5 +1,12 @@
 hubpower (1.0) UNRELEASED; urgency=low
 
+  [ Evgeny Boger ]
   * Initial release. 
+  * add deb build command to readme
+  * add trailing newline
+  * fix clean target
+  * add test line
+
+  [ Евгений ]
 
  -- Evgeny Boger <boger@contactless.ru>  Sat, 05 Apr 2014 02:56:44 +0400
